@@ -51,7 +51,7 @@ import TextField from '@mui/material/TextField';
      return (
          <div>
          <div> {myForm()} </div>
-         <div> <h4> Dear {quote.quotes[0].author}, <p> {quote.quotes[0].text} </p><p> Regards, </p> Anonymous </h4>
+         <div className="textQuote"> <h6> Dear {quote.quotes[0].author}, <p> {quote.quotes[0].text} </p><p> Regards, </p> Anonymous </h6>
          </div>
         
         </div> 
