@@ -1,4 +1,5 @@
 {
+  "homepage": "https://fern1991p.github.io/quote-generator-private",
   "name": "quote-test-client",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,9 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects ",
